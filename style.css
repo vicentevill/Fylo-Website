@@ -1,0 +1,448 @@
+body {
+  background-color: #181e2a;
+  /* #1c2230; */
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  width: 100%;
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+}
+
+#logoHeader {
+  width: 132px;
+  height: fit-content;
+  position: relative;
+  left: 50px;
+  cursor: pointer;
+}
+
+#navigation {
+  display: flex;
+  position: relative;
+  left: -70px;
+  gap: 50px;
+}
+
+.navigation {
+  cursor: pointer;
+}
+
+#introSVG {
+  max-width: 400px;
+  height: fit-content;
+  align-self: center;
+  position: relative;
+  top: 27px;
+}
+
+#getStarted {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  max-width: 500px;
+  align-self: center;
+}
+
+#startButton {
+  align-self: center;
+  position: relative;
+  width: 290px;
+  height: 55px;
+  border-radius: 50px;
+  top: 30px;
+  background-color: #4dc2d3;
+  border-width: 0px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#featuresSection {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: relative;
+  top: 120px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+#features {
+  display: flex;
+  align-self: center;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  max-width: 360px;
+  margin-top: 70px;
+}
+
+#featuresIcon1 {
+  align-self: center;
+  width: 83px;
+  height: fit-content;
+}
+
+#featuresIcon2 {
+  align-self: center;
+  width: 70px;
+  height: fit-content;
+}
+
+#featuresIcon3 {
+  align-self: center;
+  width: 86px;
+  height: fit-content;
+}
+
+#featuresIcon4 {
+  align-self: center;
+  width: 91px;
+  height: fit-content;
+}
+
+#stayProductive {
+  align-self: center;
+  position: relative;
+  display: flex;
+  top: 250px;
+  gap: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#stayProductivePNG {
+  max-width: 500px;
+  height: fit-content;
+}
+
+#stayProductiveText {
+  max-width: 500px;
+  position: relative;
+  top: 75px;
+}
+
+#howFyloWorks {
+  color: #4dc2d3;
+}
+
+#arrow {
+  position: relative;
+  top: 3px;
+  left: 5px;
+}
+
+#stayProductiveHead {
+  max-width: 300px;
+}
+
+#reviews {
+  display: flex;
+  position: relative;
+  top: 300px;
+  align-self: center;
+  max-width: 1160px;
+  gap: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#quotes {
+  position: absolute;
+  width: 55px;
+  height: 45px;
+  left: -10px;
+  top: -35px;
+  z-index: -1;
+}
+
+.reviewBox {
+  background-color: #21293c;
+  max-width: 300px;
+  box-shadow: 10px 10px 0px 0px #1a212b;
+  /* margin-right: 40px; */
+  padding: 30px 30px 0px 30px;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  top: 10px;
+}
+
+.profilePic {
+  width: 30px;
+  height: fit-content;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.profileName {
+  font-weight: 700;
+  position: relative;
+  left: 10px;
+  top: -15px;
+  cursor: pointer;
+}
+
+.jobPosition {
+  font-size: 12px;
+  position: relative;
+  left: 10px;
+  top: -30px;
+  cursor: pointer;
+}
+#earlyAccess {
+  display: flex;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  top: 400px;
+  background-color: #1c2230;
+  padding: 0px 70px 50px 70px;
+  box-shadow: 5px 5px 10px #111723;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  margin: 0px 20px 0px 20px;
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  top: 20px;
+}
+
+#earlyAccessText {
+  max-width: 650px;
+}
+
+#emailInput {
+  width: 500px;
+  padding: 15px 15px 15px 30px;
+  border-width: 0px;
+  border-radius: 50px;
+}
+
+#emailInput:focus {
+  outline: none;
+}
+
+#emailSubmit {
+  border-width: 0px;
+  color: white;
+  background-color: #4dc2d3;
+  font-weight: 700;
+  padding: 15px 25px 15px 25px;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 250px;
+  height: 100%;
+  background-color: #0c1524;
+  padding-bottom: 400px;
+}
+
+#footerContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 300px;
+  gap: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.footerLinks {
+  cursor: pointer;
+}
+
+#logoFooter {
+  width: 132px;
+  height: fit-content;
+  position: relative;
+  cursor: pointer;
+  top: 225px;
+  align-self: center;
+  cursor: pointer;
+}
+
+#locationArea {
+  display: flex;
+}
+
+#location {
+  max-width: 300px;
+  cursor: pointer;
+}
+
+#locationSVG {
+  position: relative;
+  width: 13px;
+  height: 18px;
+  top: 18px;
+  left: -10px;
+}
+
+.footerContact {
+  margin-right: 10px;
+}
+
+.socialOutline {
+  width: 35px;
+  height: 35px;
+  border-color: white;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.socialIcons {
+  width: 20px;
+  height: 20px;
+}
+
+#socials {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 950px) {
+  #stayProductiveText {
+    top: 0px;
+  }
+  #stayProductivePNG {
+    max-width: 300px;
+  }
+  form {
+    flex-direction: column;
+  }
+  #emailInput {
+    text-align: center;
+  }
+}
+
+@media (max-width: 712px) {
+  #features {
+    flex-direction: column;
+  }
+  #stayProductive {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #getStarted {
+    max-width: 600px;
+  }
+  #reviews {
+    flex-direction: column;
+    top: 350px;
+  }
+  #footerContent {
+    flex-direction: column;
+    top: 300px;
+    left: 20px;
+    width: 275px;
+  }
+  #features {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 670px) {
+  #logoHeader {
+    width: 100px;
+    left: 20px;
+  }
+
+  #navigation {
+    gap: 20px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .navigation {
+    padding: 0%;
+  }
+
+  #introSVG {
+    max-width: 300px;
+  }
+
+  #getStarted {
+    width: 300px;
+  }
+
+  .features {
+    width: 300px;
+  }
+
+  #emailInput {
+    width: 300px;
+  }
+
+  #earlyAccess {
+    width: 200px;
+  }
+
+  #earlyAccessText {
+    max-width: 235px;
+    align-self: center;
+  }
+
+  #emailInput {
+    width: 200px;
+  }
+
+  h2 {
+    position: relative;
+    top: 10px;
+  }
+
+  #emailSubmit {
+    width: 245px;
+  }
+
+  #featuresSection {
+    width: 100%;
+  }
+}
